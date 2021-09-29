@@ -6,3 +6,12 @@ from django.http import HttpResponse
 def testfun(request):
     # print('heloooooo')
     return HttpResponse('helooo baabte')
+
+def welcomefun(request):
+    return render(request,'welcome.html')
+
+def aboutfn(request):
+    return render(request,'about.html')  
+
+def contactfn(request):
+    return render(request,'contact.html')        
