@@ -10,8 +10,8 @@ def testfun(request):
 def welcomefun(request):
     return render(request,'welcome.html')
 
-def aboutfn(request):
+def aboutfun(request):
     return render(request,'about.html')  
 
-def contactfn(request):
+def contactfun(request):
     return render(request,'contact.html')        
